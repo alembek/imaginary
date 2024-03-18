@@ -76,6 +76,10 @@
 }
 
 .auth {
+  @apply flex-center min-h-screen w-full bg-purple-100;
+}
+
+.auth {
   @apply flex-center min-h-screen w-full bg-purple-100
 }
 
@@ -316,7 +320,7 @@
   }
 
   .sidebar-logo {
-    @apply flex items-center gap-2 md:py-2;
+    @apply flex items-start;
   }
 
   .sidebar-nav {
